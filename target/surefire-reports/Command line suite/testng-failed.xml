@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.KickOff.TestCases.EditAccountTest">
+        <methods>
+          <include name="EditAccountTab"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.KickOff.TestCases.EditAccountTest -->
+      <class name="com.KickOff.TestCases.BalanceEnquiryTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="BalanceEnquiryDetailPage"/>
+        </methods>
+      </class> <!-- com.KickOff.TestCases.BalanceEnquiryTest -->
+      <class name="com.KickOff.TestCases.NewAccountTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="NewAccountDetails"/>
+        </methods>
+      </class> <!-- com.KickOff.TestCases.NewAccountTest -->
+      <class name="com.KickOff.TestCases.DepositTest">
+        <methods>
+          <include name="DepositPage"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.KickOff.TestCases.DepositTest -->
+      <class name="com.KickOff.TestCases.HomePageTest">
+        <methods>
+          <include name="NewCustomerDetailPage"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.KickOff.TestCases.HomePageTest -->
+      <class name="com.KickOff.TestCases.loginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginDetails"/>
+        </methods>
+      </class> <!-- com.KickOff.TestCases.loginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
